@@ -1,6 +1,7 @@
 package com.sapuseven.untis.activities.main
 
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
@@ -44,7 +45,7 @@ fun DrawerItems(
 			icon = painterResource(id = R.drawable.all_rooms),
 			label = stringResource(id = R.string.all_rooms),
 			elementType = TimetableDatabaseInterface.Type.ROOM
-		),
+		)
 	)
 
 	var navItemsShortcuts = listOf(
